@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:wght@300;400;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#header {
+    height: 4.5rem;
+    width: 100%;
+    background-color: #4B7198;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+#nav-header {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+.nav-item {
+    color: var(--darkblue);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+    position: relative;
+}
+.nav-item:hover {
+    color: var(--lightblue);
+    transform: scale(1.1);
+}
+
+#section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+#div-lista{
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#searchAdd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+#search-bar{
+    width: 50%;
+    border-radius: 50px;
+    border: 1px solid #6a6a6a;
+    padding: 5px;
+}
+.add-button{
+    color: #4CAF50;
+    background-color: #4caf5033;
+}
+
+#listas {
+    width: 100%;
+    border-collapse: collapse;
+}
+#listas, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+.btn {
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.edit-btn {
+    color: #4c4caf;
+    background-color: #4c8baf33;
+}
+.delete-btn {
+    color: #f44336;
+    background-color: #f4433633;
+}
+
+
+/* forms */
+#div-form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#div-form form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+#div-form label{
+    display: flex;
+    align-items: left;
+    width: 50%;
+}
+#div-form input{
+    width: 50%;
+}
+#criar-btn{
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+}
